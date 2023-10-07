@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
 
     switch (argc) {
         case 1:
-            cout << "Keyboard input or redirection" << endl;
+            cout << "Keyboard input: enter words seperated by spaces, and use ctrl+D as EOF token." << endl;
             fileToWrite.open("temp.dat");
             while (getline(cin, data)) {
                 fileToWrite << data << endl;
