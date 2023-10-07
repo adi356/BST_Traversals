@@ -74,7 +74,6 @@ int main(int argc, const char * argv[]) {
             
             fileToRead.close();
             
-            //clean up the temporary file - temp.dat
             remove("temp.dat");
             
             return 0;
